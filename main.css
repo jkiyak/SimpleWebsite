@@ -6,15 +6,14 @@ body {
     height: 100%;
     margin: 0;
     font-family: helvetica;
-    background: #1FCFDE;
-    background: -webkit-linear-gradient(top left, #1FCFDE, #9929B2);
-    background: -moz-linear-gradient(top left, #1FCFDE, #9929B2);
-    background: linear-gradient(to bottom right, #1FCFDE, #9929B2);
+    border-color: black ;
+    text-align: center;
+    background: azure;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   
-  ul {
+ul {
     font-family: monospace;
   }
 
@@ -27,18 +26,28 @@ li {
 }
 
 .topnav {
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  position: relative;
+  align-content: center;
   overflow: hidden;
+  text-align: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
+  font-family: 'Abel'
+}
+
+.topnav-centered a {
+align-content: center;
+float: none;
+position: relative;
+text-align: center;
 }
 
 /* Change the color of links on hover */
@@ -47,7 +56,15 @@ li {
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: white;
-}
+
+
+
+/* Backgrounds:
+
+1)  background: -webkit-linear-gradient(top left, #1FCFDE, #9929B2);
+    background: -moz-linear-gradient(top left, #1FCFDE, #9929B2);
+    background: linear-gradient(to bottom right, #1FCFDE, #9929B2);
+
+
+
+*/
